@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.jpg?t=st=1719303370~exp=1719306970~hmac=c9ed0fe7788db10e384ae08ce294b3f9650dfffd1017cbd313f8aefba8b1e917&w=1060);
+      
+    background-size: cover;
+    background-position: center;
+  
+   
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 30px;
+  
+    background-color: rgb(224, 210, 183);
+}
+.logo-name h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: crimson;
+}
+.option ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.option ul li{
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 50px;
+}
+
+.sign-btn{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+.sign-btn button{
+    all: unset;
+    color: crimson;
+
+}
+
+.sign-btn i{
+    font-size: 30px;
+    color: crimson;
+}
+.Search-container{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(132, 125, 125);
+    background-color: #fff;
+    border-radius: 10px;
+    
+
+}
+.search-btn{
+   
+    padding: 0px 10px;
+    margin-right: 20px;
+}
+.search-btn button {
+    width: 100px;
+    height: 40px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 20px;
+   
+   transition: 3s ease-in;
+    
+}
+.search-btn button{
+
+}
+.search-icon{
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 10px;
+    
+   
+    
+}
+.search-icon i{
+    font-size: 25px;
+}
+input{
+    width: 320px;
+    height: 70px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    
+
+
+}
+.history-container{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   border-radius: 10px;
+}
+.content{
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.history{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 8px 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    
+    
+}
+.history:hover{
+    background-color: #ecc9c9;
+}
+.history p{
+    font-size: 19px;
+    color: rgb(140, 134, 134);
+}
+
+
+
+
